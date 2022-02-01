@@ -13,111 +13,119 @@
     </head>
   <body>
     <div class="Chessboard"> <!-- challenge 2 -->
-      <table style="border:5px solid black" class="tg">
-        <thead>
-          <tr>
-            <th>  </th>
-            <th class="tg-0lax"> a </th>
-            <th class="tg-0lax"> b </th>
-            <th class="tg-0lax"> c </th>
-            <th class="tg-0lax"> d </th>
-            <th class="tg-0lax"> e </th>
-            <th class="tg-0lax"> f </th>
-            <th class="tg-0lax"> g </th>
-            <th class="tg-0lax"> h </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th> 1 </th>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"> &#9812; </td>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-        </tr>
-        <tr>
-          <th> 2 </th>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-        </tr>
-        <tr>
-          <th> 3 </th>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-        </tr>
-        <tr>
-          <th> 4 </th>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-        </tr>
-        <tr>
-          <th> 5 </th>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-        </tr>
-        <tr>
-          <th> 6 </th>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-        </tr>
-        <tr>
-          <th> 7 </th>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-        </tr>
-        <tr>
-          <th> 8 </th>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-          <td class="dark"></td>
-          <td class="light"></td>
-        </tr>
-      </tbody>
-      </table>
+      <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-nto1{background-color:#000000;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky"> a </th>
+    <th class="tg-nto1"> b </th>
+    <th class="tg-0pky"> c </th>
+    <th class="tg-nto1"> d </th>
+    <th class="tg-0pky"> e </th>
+    <th class="tg-nto1"> f </th>
+    <th class="tg-0pky"> g </th>
+    <th class="tg-nto1"> h </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th> 1 </th>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <th> 2 </th>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+  </tr>
+  <tr>
+    <th> 3 </th>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <th> 4 </th>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+  </tr>
+  <tr>
+    <th> 5 </th>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <th> 6 </th>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+  </tr>
+  <tr>
+    <th> 7 </th>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <th> 8 </th>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-nto1"></td>
+  </tr>
+</tbody>
+</table>
     </div>
 
     <div class=""> <!-- challenge 3 -->
