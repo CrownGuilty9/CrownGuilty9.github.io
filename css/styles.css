@@ -11,59 +11,59 @@ h1 {
   text-transform: uppercase;
   font-size: 50px;
   text-align: center;
-  color: #380d73;
+  color: #8537f0;
 }
 
 h2{
   text-transform: uppercase;
   font-size: 30px;
-  color: #380d73;
+  color: #8537f0;
 }
 
 h3{
   text-transform: uppercase;
   font-size: 20px;
-  color: #380d73;
+  color: #8537f0;
 }
 
 h4{
   font-size: 20px;
-  color: #380d73;
+  color: #8537f0;
 }
 
 h5{
   font-size: 20px;
   font-weight: bold;
-  color: #380d73;
+  color: #8537f0;
 }
 
 h6{
   font-size: 20px;
   font-style: italic;
-  color: #380d73;
+  color: #8537f0;
 }
 
 button{
   font-family: 'serif';
   font-weight: bold;
-  background-color: #a6f78b;
+  background-color: #5b9cfc;
   border: none;
   font-size: 20px;
-  border-radius: 2px;
-  padding: 10px;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 button:hover{
-  background-color: #d15cf1;
+  background-color: #8558ed;
 }
 
 a{
-  color: #9f35d4;
+  color: #8558ed;
   font-size: 20px;
 }
 
 a:hover{
-   color: #9f35d4;
+   color: #8558ed;
    font-weight: bold;
    font-size: 20px;
  }
@@ -84,7 +84,7 @@ a:hover{
    background-color: white;
      width: auto;
      margin: auto;
-     border: 10px solid #dcf7f1; /* width, style, colour */
+     border: 5px solid #8754ff; /* width, style, colour */
 
  }
 
