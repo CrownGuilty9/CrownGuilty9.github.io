@@ -46,7 +46,7 @@ h6{
 button{
   font-family: 'Tw Cen MT';
   font-weight: bold;
-  background-color: #f0ea8b;
+  background-color: #a6f78b;
   border: none;
   font-size: 20px;
   border-radius: 4px;
@@ -54,7 +54,7 @@ button{
 }
 
 button:hover{
-  background-color: #f1cc5c;
+  background-color: #5ccef1;
 }
 
 a{
@@ -84,7 +84,7 @@ a:hover{
    background-color: white;
      width: auto;
      margin: auto;
-     border: 10px solid #d5f5ed; /* width, style, colour */
+     border: 10px solid #dcf7f1; /* width, style, colour */
 
  }
 
