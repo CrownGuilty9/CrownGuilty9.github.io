@@ -1,5 +1,5 @@
 body{
-  font-family: 'Tw Cen MT';
+  font-family: 'system-ui';
 
 }
 
@@ -44,7 +44,7 @@ h6{
 }
 
 button{
-  font-family: 'Tw Cen MT';
+  font-family: 'serif';
   font-weight: bold;
   background-color: #a6f78b;
   border: none;
