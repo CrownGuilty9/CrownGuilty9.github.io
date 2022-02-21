@@ -26,7 +26,7 @@ html {
 .about-section {
   padding: 50px;
   text-align: center;
-  background-color: #474e5d;
+  background-color: #976ff2;
   color: white;
 }
 
@@ -40,24 +40,61 @@ html {
   display: table;
 }
 
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
+.hL {
   text-align: center;
-  cursor: pointer;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
 }
 
-.button:hover {
-  background-color: #555;
+.button-style1 {
+  font-family: brother-1816, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 19px;
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  transition: box-shadow .25s ease-in-out;
+}
+
+.button-style1:hover{
+   box-shadow: inset 3px 2px 7px #999999;
+}
+
+.button-hover{
+  font-family: brother-1816, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 19px;
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  box-shadow: inset 3px 2px 7px #999999;
+}
+
+.button-active{
+  background-color: #81B0B6;
+  color: white;
+  border-color: white;
+  font-family: brother-1816, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 19px;
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 2px 2px 10px 3px #999999;
 }
 
 @media screen and (max-width: 650px) {
