@@ -1,4 +1,5 @@
 /* Mobile POV (Phones, Tablets, etc.) */
+
 @media screen and (max-width: 500 px)
 {
   h1
@@ -122,6 +123,7 @@ p
 
 }
 /* Laptop and higher resolution POV */
+
 @media screen and (min-width:499 px){
 
   .home_div{
