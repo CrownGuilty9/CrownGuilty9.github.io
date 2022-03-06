@@ -151,7 +151,7 @@ p
   }
 
   h1 {
-    font-family: brother-1816, sans-serif;
+    font-family: sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 40px;
@@ -160,7 +160,7 @@ p
   }
 
   h2 {
-    font-family: brother-1816, sans-serif;
+    font-family: sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 35px;
@@ -169,7 +169,7 @@ p
   }
 
   h3 {
-    font-family: brother-1816, sans-serif;
+    font-family: sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 27px;
@@ -178,7 +178,7 @@ p
   }
 
   h4 {
-    font-family: brother-1816, sans-serif;
+    font-family: sans-serif;
     font-weight: 400;
     font-style: italic;
     font-size: 22px;
@@ -187,7 +187,7 @@ p
   }
 
   h5 {
-    font-family: brother-1816, sans-serif;
+    font-family: sans-serif;
     font-weight: 100;
     font-style: italic;
     font-size: 20px;
@@ -196,7 +196,7 @@ p
   }
 
   h6 {
-    font-family: brother-1816, sans-serif;
+    font-family: sans-serif;
     font-weight: 100;
     font-style: normal;
     font-size: 15px;
@@ -209,7 +209,7 @@ p
   }
 
   p{
-    font-family: brother-1816, sans-serif;
+    font-family: sans-serif;
     font-weight: 300;
     font-style: normal;
     margin-left: 25px;
@@ -260,4 +260,94 @@ p
     display:block;
   }
 
+}
+
+/* Global resolution */
+
+a{
+  font-family: sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #E84242;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #81B0B6;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+hr {
+  border-width: 1px;
+  border-color: #81B0B6;
+  border-style: solid;
+  width: 60%;
+  padding-top: 1px;
+}
+
+ul {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+ol {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  list-style-type: upper-roman;
+}
+
+
+
+.button-style1 {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 19px;
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  transition: box-shadow .25s ease-in-out;
+}
+
+.button-style1:hover{
+   box-shadow: inset 3px 2px 7px #999999;
+}
+
+.button-hover{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 19px;
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  box-shadow: inset 3px 2px 7px #999999;
+}
+
+.button-active{
+  background-color: #81B0B6;
+  color: white;
+  border-color: white;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 19px;
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 2px 2px 10px 3px #999999;
 }
