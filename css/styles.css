@@ -2,6 +2,35 @@
 
 @media screen and (max-width: 500 px)
 {
+  .home_div{
+    height: 770px;
+    margin-top: 0px;
+    background-image: url("../img/background1_2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .noMargin{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  h1.home_Title {
+    padding-top:250px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-bottom: 70px;
+    text-shadow: 2px 2px 5px  #808080;
+  }
+
+  a.table_of_contents{
+    color:white;
+    margin-left: auto;
+    padding-top: 100px;
+  }
+
   h1
   {
     font-family: sans-serif;
@@ -11,6 +40,7 @@
     margin: 20px;
     text-align: center;
   }
+
   h2
   {
     font-family: sans-serif;
@@ -20,6 +50,7 @@
     margin: 20px;
     text-align: center;
   }
+
   h3
   {
     font-family: sans-serif;
@@ -29,6 +60,7 @@
     margin: 15px;
     text-align: center;
   }
+
   h4
   {
     font-family: sans-serif;
@@ -38,6 +70,7 @@
     margin: 15px;
     text-align: center;
   }
+
   h5
   {
     font-family: sans-serif;
@@ -47,6 +80,7 @@
     margin: 15px;
     text-align: center;
   }
+
   h6
   {
     font-family: sans-serif;
@@ -56,43 +90,45 @@
     margin: 15px;
     text-align: center;
   }
+
   .margin
   {
     margin-left: 40%;
   }
+
 }
 
 p
-{
-   font-family: sans-serif;
-   font-weight: 400;
-   font-style: normal;
-   margin-left: 20px;
-   margin-right: 10px;
-   margin-top: 10px;
-   margin-bottom: 10px;
- }
+  {
+     font-family: sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     margin-left: 20px;
+     margin-right: 10px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+  }
  .box
- {
-   display: flex;
-   flex-direction: column;
- }
+  {
+     display: flex;
+     flex-direction: column;
+  }
 
  .item
- {
-   margin: 3px;
-   flex: 1 1 0;
- }
+  {
+     margin: 3px;
+     flex: 1 1 0;
+  }
 
  .pCBox
- {
-   display: flex;
-   flex-direction: column;
-   align-content:center;
-   margin-left: auto;
-   margin-right: auto;
-   width:100%;
- }
+  {
+     display: flex;
+     flex-direction: column;
+     align-content:center;
+     margin-left: auto;
+     margin-right: auto;
+     width:100%;
+  }
 
   .hC
   {
