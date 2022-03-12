@@ -390,3 +390,98 @@ ol {
   margin: 5px;
   box-shadow: 2px 2px 10px 3px #999999;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile POV (Phones, Tablets, etc.) */
+
+@media screen and (max-width: 500px)
+{
+    .h /* header */
+    {
+      background-color: #0054D6;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .topnav
+    {
+      overflow: hidden;
+      background-color: #70E3FF;
+    }
+
+    .topnav a
+    {
+      float: left;
+      display: block;
+      color: #9C5FFE;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .topnav a:hover
+    {
+      background-color: blue;
+      color: black;
+    }
+
+    .home_div
+    {
+      height: 600px;
+      margin-top: 100px;
+      background: url("../img/background2.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-content: center;
+    }
+
+    h1
+    {
+      font-family: "Times New Roman", Times, serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 40px;
+      margin: 20px;
+      text-align: center;
+    }
+}
