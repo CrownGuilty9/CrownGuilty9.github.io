@@ -43,3 +43,6 @@
       display: block;
       margin: auto;
     }
+    .nav-links ul li:hover::after{
+      width: 100%;
+    }
