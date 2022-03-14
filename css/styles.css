@@ -192,3 +192,15 @@ h3{
   flex-basis: 48%;
   padding: 30px 2px;
 }
+
+.about img{
+  width: 100%;
+}
+
+.about h1{
+  padding-top: 0;
+}
+
+.about p{
+  padding: 15px 0 25px;
+}
