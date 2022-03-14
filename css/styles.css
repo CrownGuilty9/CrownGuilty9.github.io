@@ -167,18 +167,6 @@ h3{
   box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
-/*---footer---*/
-.footer{
-  width: 100%;
-  text-align: center;
-  padding: 30px 0;
-}
-.footer h4{
-  margin-bottom: 25px;
-  margin-top: 20px;
-  font-weight: 600;
-}
-
 /*---about me---*/
 .sub-header{
   height: 50vh;
