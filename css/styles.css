@@ -57,3 +57,12 @@
       transform: translate(-50%, -50%);
       text-align: center;
     }
+
+    .text-box h1{
+      font-size: 62px;
+    }
+    .text-box{
+      margin: 10px 0 40px;
+      font-size: 14px;
+      color: #fff;
+    }
