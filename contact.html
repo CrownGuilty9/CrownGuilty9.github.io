@@ -1,25 +1,78 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title> Contact Infos </title>
-    <link rel="stylesheet" href="/css/styles.css">
-  </head>
-  <body>
-    <h2 class="hL"> Table of Contents </h2>
-    <div class="box">
-      <a class ="item button-style1" name="About Me" href="./index.html"> About Me </a>
-      <a class ="item button-style1" name="Assignments" href="./finished_assignments.html"> Assignments </a>
-      <a class ="item button-active" name="Contact" href="./contact.html"> Contact Info </a>
-      <a class ="item button-style1" name="Other" href="./project.html"> Projects </a>
+<html>
+
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title> Index </title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+  <section class ="header">
+    <nav>
+      <a href="index.html"> <img src="img/cu-logo.png"> </a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-window-close" onclick="hideMenu()"></i>
+        <ul>
+          <li> <a href="./index.html"> HOME </a> </li>
+          <li> <a href="./aboutme.html"> ABOUT ME </a> </li>
+          <li> <a href="./finished_assignments"> ASSIGNMENTS </a> </li>
+          <li> <a href="./project.html"> PROJECTS </a> </li>
+          <li> <a href="./contact.html"> CONTACT </a> </li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </nav>
+
+  <div class="text-box">
+    <h1> Welcome </h1>
+    <p> Start of my page </p>
+  </div>
+
+  </section>
+
+  <!-- Info -->
+
+  <section class="info">
+    <h1> Contact Info </h1>
+    <p> Ways to contact me </p>
+
+    <div class="row">
+      <div class="info-col">
+        <h3> Phone </h3>
+        <p> 303-720-2162 </p>
+      </div>
+      <div class="info-col">
+        <h3> Email </h3>
+        <p> mano3845@colorado.edu </p>
+      </div>
+      <div class="info-col">
+        <h3> Social Media </h3>
+        <p> <a href="https://www.instagram.com/matthew_know/"> Instagram </a> </p> <br>
+        <p> <a href="https://www.linkedin.com/in/matthew-no-b830761b8/"> LinkedIn </a> </p>
+      </div>
     </div>
 
-    <div class="about-section">
-      <h2 class="hL"> Contact Info </h2>
-      <p> Email: mano3845@colorado.edu </p>
-    </div>
+  </section>
 
+<!-- JS -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
 
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
 
-  </body>
+  </script>
+
+</body>
+
 </html>

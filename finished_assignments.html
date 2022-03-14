@@ -1,21 +1,45 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title> Finished Assignments </title>
-    <link rel="stylesheet" href="/css/styles.css">
-  </head>
-  <body>
-    <h2 class="hL"> Table of Contents </h2>
-    <div class="box">
-      <a class ="item button-style1" name="About Me" href="./index.html"> About Me </a>
-      <a class ="item button-active" name="Assignments" href="./finished_assignments.html"> Assignments </a>
-      <a class ="item button-style1" name="Contact" href="./contact.html"> Contact Info </a>
-      <a class ="item button-style1" name="Other" href="./project.html"> Projects </a>
-    </div>
+<html>
 
-    <div class="about-section">
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title> Index </title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+  <section class ="sub-header">
+    <nav>
+      <a href="index.html"> <img src="img/cu-logo.png"> </a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-window-close" onclick="hideMenu()"></i>
+        <ul>
+          <li> <a href="./index.html"> HOME </a> </li>
+          <li> <a href="./aboutme.html"> ABOUT ME </a> </li>
+          <li> <a href="./finished_assignments"> ASSIGNMENTS </a> </li>
+          <li> <a href="./project.html"> PROJECTS </a> </li>
+          <li> <a href="./contact.html"> CONTACT </a> </li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </nav>
+
+  <h1> Assignments </h1>
+
+  </section>
+
+<!---About me--->
+
+<section class="about-me">
+  <div class="row">
+    <div class="about">
       <h1> Assignments </h1>
+      <p> Here is a list of assignments I have completed! </p>
         <ul>
           <li> <a href="assignment1.html"> Assignment #1 </a> </li>
           <li> <a href="assignment3.html"> Assignment #3 </a> </li>
@@ -23,6 +47,23 @@
           <li> <a href="assignment5.html"> Assignment #5 </a> </li>
         </ul>
     </div>
+  </div>
+</section>
 
-  </body>
+
+<!-- JS -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+  </script>
+
+</body>
+
 </html>
