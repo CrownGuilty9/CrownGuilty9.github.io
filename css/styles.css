@@ -42,7 +42,18 @@
       background: #f44336;
       display: block;
       margin: auto;
+      transition: 0.5s;
     }
     .nav-links ul li:hover::after{
       width: 100%;
+    }
+
+    .text-box{
+      width: 90%;
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
     }
