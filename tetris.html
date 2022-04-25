@@ -1,43 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tetris</title>
-    <!--Import font -->
+  <title>JavaScript Tetris</title>
+  <meta property="og:title" content="JavaScript Tetris" />
+  <meta name="description" content="Tetris game made with modern JavaScript.">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-  <link rel="stylesheet" href="/css/tetris.css">
+  <link rel="stylesheet" type="text/css" href="../css/tetris.css">
 </head>
-<title id>Tetris Challenge</title>
-
 <body>
-  <h2>Tetris </h2>
-  <h4 id="status">play the game</h2>
-    <button id="instructions">Instructions</button>
-    <!--Button for instructions -->
-    <div id="myModal" class="modal">
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <p>⬅️ Left Arrow: moves the block left<br><br> ➡️ Right Arrow: moves the
-          block right<br><br>
-          ⬇️ Down Arrow: Accelerates the block's fall<br><br>
-          A & D Keys: Rotate the block <br><br> Score as many points as possible
-          by clearing horizontal lines of Blocks. <br><br> You must rotate,
-          move, and drop the falling Tetriminos inside the playing field. <br><br>
-          Lines are cleared when they are filled with Blocks and have no empty
-          spaces.
-        </p>
+  <div class="grid">
+      <canvas id="board" class="game-board"></canvas>
+      <div class="right-column">
+          <div>
+              <h1>TETRIS</h1>
+              <p>Score: <span id="score">0</span></p>
+              <p>Lines: <span id="lines">0</span></p>
+              <p>Level: <span id="level">0</span></p>
+              <canvas id="next" class="next"></canvas>
+          </div>
+          <button onclick="play()" class="play-button">Play</button>
       </div>
-    </div>
-    <div id="button-container">
-      <button id="start">Start</button>
-      <h3>Score:<span id="score">0</span></h3>
-      <button id="reset">Reset</button>
-    </div>
-    <canvas id="tetris" width="240" height="400">
-      <script src="../js/tetris.js"></script>
-</body>
+  </div>
 
+  <script type="text/javascript" src="../js/constants.js"></script>
+  <script type="text/javascript" src="../js/board.js"></script>
+  <script type="text/javascript" src="../js/piece.js"></script>
+  <script type="text/javascript" src="../js/main.js"></script>
+</body>
 </html>
