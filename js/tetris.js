@@ -83,7 +83,7 @@ function SetupCanvas(){
 
     tetrisLogo = new Image(161, 54);
     tetrisLogo.onload = DrawTetrisLogo;
-    tetrisLogo.src = "tetrislogo.png";
+    tetrisLogo.src = "../img/tetrislogo.png";
 
     // Set font for score label text and draw
     ctx.fillStyle = 'black';
