@@ -1,4 +1,4 @@
-@media screen and (min-width: 416px){
+@media screen and (min-width: 420px){
 
 *{
 	padding: 0;
@@ -311,7 +311,7 @@ footer p:nth-child(2){
 }
 
 
-@media screen and (max-width: 415px){
+@media screen and (max-width: 419px){
 
 *{
 	padding: 0;
