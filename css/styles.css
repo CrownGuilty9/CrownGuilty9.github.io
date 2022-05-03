@@ -302,3 +302,7 @@ footer p:nth-child(2){
 	bottom: 35px;
 	font-size: 14px;
 }
+#homeDiv{
+  text-align: center;
+  padding: 20px;
+}
