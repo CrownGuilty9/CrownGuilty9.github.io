@@ -1,66 +1,95 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta name="viewport" content="with=device-width, initial-scale=1.0">
-  <title> Index </title>
-  <link rel="stylesheet" href="/css/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
-
 <body>
-  <section class ="sub-header">
-    <nav>
-      <a href="index.html"> <img src="img/cu-logo.png"> </a>
-      <div class="nav-links" id="navLinks">
-        <i class="fa fa-window-close" onclick="hideMenu()"></i>
-        <ul>
-          <li> <a href="./index.html"> HOME </a> </li>
-          <li> <a href="./aboutme.html"> ABOUT ME </a> </li>
-          <li> <a href="./finished_assignments"> ASSIGNMENTS </a> </li>
-          <li> <a href="./project.html"> PROJECTS </a> </li>
-          <li> <a href="./contact.html"> CONTACT </a> </li>
-        </ul>
+	<!----hero Section start---->
+
+	<div class="hero">
+		<nav>
+			<h2 class="logo">Portfo<span>lio</span></h2>
+			<ul>
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="./aboutme.html">About Me</a></li>
+				<li><a href="./finished_assignments.html">Assignments</a></li>
+				<li><a href="./project.html">Projects</a></li>
+				<li><a href="./contact.html">Contact Info</a></li>
+			</ul>
+		</nav>
+
+    <div class="content">
+			<h1> Projects </h1>
+		</div>
+	</div>
+
+	<!----About section start---->
+	<section class="about">
+		<div class="main">
+			<div class="about-text">
+				<h2> Projects </h2>
+				<p> These are projects I have done outside of class that I want to show off to others! </p>
+			</div>
+		</div>
+	</section>
+
+  <!-----service section start----------->
+  <div class="service">
+    <div class="title">
+      <h2> Categories </h2>
+    </div>
+
+    <div class="box">
+      <div class="card">
+        <i class="fas fa-bars"></i>
+        <h5> Projects </h5>
+        <div class="pra">
+          <p> None listed here so far. Will add them eventually! </p>
+        </div>
       </div>
-      <i class="fa fa-bars" onclick="showMenu()"></i>
 
-    </nav>
+      <div class="card">
+        <i class="fas fa-bars"></i>
+        <h5> Youtube </h5>
+        <div class="pra">
+          <p> None to show the progress of what I have done so far! Will add them eventually! </p>
+        </div>
+      </div>
 
-  <h1> Projects </h1>
+      <div class="card">
+        <i class="fas fa-bars"></i>
+        <h5> Github </h5>
+        <div class="pra">
+          <a href="https://github.com/CrownGuilty9"><i class="fab fa-github"></i></a>
 
-  </section>
-
-<!---Project--->
-
-<section class="about-me">
-  <div class="row">
-    <div class="info-col">
-      <h1> Projects </h1>
-      <p> Here is a list of projects I have completed! </p>
-        <ul>
-          <li> <a href="index.html"> Project #1 </a> </li>
-        </ul>
+        </div>
+      </div>
     </div>
   </div>
-</section>
 
+	<!------Contact Me------>
+	<div class="contact-me">
+		<p> If you would like to contact me click here down below! </p>
+		<a class="button-two" href="./contact.html"> Contact </a>
+	</div>
 
-<!-- JS -->
-  <script>
-    var navLinks = document.getElementById("navLinks");
-
-    function showMenu(){
-      navLinks.style.right = "0";
-    }
-    function hideMenu(){
-      navLinks.style.right = "-200px";
-    }
-
-  </script>
-
+	<!------footer start--------->
+	<footer>
+		<p>Matthew No</p>
+		<p> For more projects and stuff I do on my own, feel free to check below on my other socials! </p>
+		<div class="social">
+			<a href="https://twitter.com/CrownGuilt9"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.instagram.com/matthew_know/"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.linkedin.com/in/matthew-no/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/CrownGuilty9"><i class="fab fa-github"></i></a>
+		</div>
+	</footer>
 </body>
-
 </html>
